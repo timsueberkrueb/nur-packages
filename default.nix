@@ -19,4 +19,5 @@
     libsoundio = null;
     portaudio = null;
   };
+  tutanota-desktop = pkgs.callPackage ./pkgs/tutanota-desktop { };
 }
